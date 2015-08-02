@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Stanford Lagunita Scripts",
+    "description": "Utilities for working with Lagunita",
+    "version": "1.0",
+
+    "content_scripts": [
+	{
+
+	    "matches": ["https://lagunita.stanford.edu/*"],
+	    "js": ["lagunita.js"]
+	}]
+
+}
